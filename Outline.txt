@@ -1,9 +1,9 @@
 Zoo Operations
   Food and Drink (Revenue)
-    - restaurant Names
-    - food/drinks they sell
-    - food/drinks cost
-    - restaurant workers
+    - restaurant Names / Gift shops
+    - food/drinks/items they sell
+    - food/drinks/items cost
+    - restaurant/gift shop workers
         - Front of House # and $/hr
         - Back of House # and $/hr
         - Manager # and $/hr
