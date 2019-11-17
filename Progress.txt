@@ -1,0 +1,26 @@
+Progress Report
+
+The point of our program is to define and run code that will be able to help a zoo organize their information
+and be able to see the profits and costs of running the zoo. They should be able to set a realistic budget and
+cut down on costs or maybe have areas to spend money on. 
+
+Currently, we do not have much, just some basic classes. We have not had that much time to work on it, but we
+will definitely be adding more code and increasing the complexity. We just decided to at least have the basics
+down before we progress any further. We were thinking of having an employee/worker main method of sorts that 
+would update values in the zoo as the way for the code to function. Since restaurants and gift shops are similar
+in structure, we are going to have some abstract class that these shops extend, we might add different types of shops,
+but for now these are the most important to have functioning. For tickets, it was really basic, just based on age
+which affects their price. And for the animals section of the zoo, the most important aspects to focus on right now are
+the food costs based on the type and number of animal. We are going to start basic for that as we don't have
+a set idea of how big and difficult this could be, but I am certain that it will be comprehensive enough for a regular
+zoo to have an idea of animal costs.
+
+We are planning to implement a GUI of course, we haven't really talked much on how to go about it, but we will
+definitely work on that soon after the basics are down. No one really has much experience in making one, that is 
+why we put it off, but I am confident we will be able to implement a GUI by the time we present. So, a GUI is the main
+focus for future implementation and I think will be the most complex in achieving. 
+
+Members: Jeffrey Herrera
+         Benjamin Buchanan 
+         Mahesh Ramchandani 
+         Romel Munoz-Valencia
