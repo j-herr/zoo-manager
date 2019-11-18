@@ -36,3 +36,7 @@ I added the tickets machine project file underneath the projects tab. I think th
 
 11/17/19 - Romel Munoz
 Skeleton code for Zoo Gift Shop inventory control. Can be accessed from GiftShopEmp (gift shop employee) object. Next step from this branch will be finalizing purchases. This will include updating Inventory, clearing basket, and managing tender amounts and types. Also in the horizon, FileStream I/O functinalities for permanent inventory control from a .txt file.
+
+11/17/19 - Jeffrey Herrera
+Basic abstract class for Animal with defined and undefined methods for implementation. For now, just main animal abstract class
+with subclasses that are just different types of animals.
