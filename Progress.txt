@@ -28,3 +28,6 @@ Members: Jeffrey Herrera
 
 11/17/19 - Benjamin Buchanan
  I have made code for the base of the restaurant side of the zoo. I was just thinking that maybe this *could* be a program where it's not specific to one zoo, but rather for CREATING  a zoo's interface. If that makes sense and if we haven't already thought of that lol
+
+11/17/19 - Mahesh Ramchandani
+I added the tickets machine project file underneath the projects tab. I think that your idea for creating a zoo's interface is similar to what we're doing right now - just a basic template for a zoo to use for managing their operations. Can you explain further what differences you meant?
