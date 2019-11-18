@@ -3,6 +3,7 @@ public abstract class Animal {
   protected String food_type;
   protected int development_stage;
   protected int workers;
+  protected int numOfTotalAnimals;
   
   public String getName() {
     return name;
@@ -15,6 +16,9 @@ public abstract class Animal {
   }
   public int getWorkers() {
     return workers;
+  }
+  public int getNumOfTotalAnimals() {
+    return numOfTotalAnimals;
   }
   
   public void setName(String name) {
@@ -29,7 +33,11 @@ public abstract class Animal {
   public void setWorkers(int workers) {
     this.workers = workers;
   }
+  public void setNumOfTotalAnimals(int animals) {
+    numOfTotalAnimals = animals;
+  }
   
   abstract int getTemp();
+  abstract int lbsOfFood();
   abstract int toString();
-  
+}
