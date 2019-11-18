@@ -33,3 +33,6 @@ Update #2: Just added a basic GUI for implementation
 
 11/17/19 - Mahesh Ramchandani
 I added the tickets machine project file underneath the projects tab. I think that your idea for creating a zoo's interface is similar to what we're doing right now - just a basic template for a zoo to use for managing their operations. Can you explain further what differences you meant?
+
+11/17/19 - Romel Munoz
+Skeleton code for Zoo Gift Shop inventory control. Can be accessed from GiftShopEmp (gift shop employee) object. Next step from this branch will be finalizing purchases. This will include updating Inventory, clearing basket, and managing tender amounts and types. Also in the horizon, FileStream I/O functinalities for permanent inventory control from a .txt file.
