@@ -31,6 +31,8 @@ public class GiftShop
    private double allASMWages;
    private double allSMWages;
    
+   private double giftRevenue;
+   
    Inventory giftShopInventory;
    
    //Initializes the gift shop with a default inventory
@@ -51,6 +53,15 @@ public class GiftShop
       
    }
    
+   //adds revenue from gift sales
+   public void addGiftRevenue(Gift gift, int quantity)
+   {
+      this.giftRevenue = this.giftRevenue + (gift.getGiftPrice() * qantity);
+   }
+   public double getGiftRevenue()
+   {
+      return this.giftRevenue;  
+   }
    //this is all the wages combined.
    public void setTotalWages()
    {
@@ -164,7 +175,7 @@ public class GiftShop
       String output;
       double t = totalWages;
       double val = giftShopInventory.getTotalValue();
-      output = "Total cost of all employees entered: $" + t + "\nTotal value of all inventory: $" + val;
+      output = "Total cost of all employees entered: $" + t + "\nTotal value of all inventory: $" + val + "\nTotal gift sales: $" + getGiftRevenue();
       return output;
    }
    public void displayInventory()
