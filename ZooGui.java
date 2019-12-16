@@ -122,6 +122,10 @@ public class ZooGui extends JFrame implements ActionListener {
       ViewReportFrame.main(null);
       dispose();
     }
+    else if (sourceEvent == restaurantButton) {
+      ChoosingRestaurant.main(null);
+      dispose();
+    }
   }
   
   public static void main(String[] args) {
