@@ -7,3 +7,14 @@ Benjamin Buchanan -- 10:41 PM
   during runtime but have the user change their actual values during the program. We all chose to undergo and change most of how each 
   class worked, so it was less confusion when looking at the code. We kept the same basic idea of how our GUI would look and feel from the
   original one that I made. 
+  
+Jeffrey Herrera 
+So I created a new GUI layout, I used Zybooks: GUI as a guideline on how it should be formatted.
+I also updated the Animal and Ticket Aspects of the GUI. 
+All buttons should be working except GiftShop. It should have been working for submission today, that
+was one of the things we said would be working, but it was Romel's part to code, but he did not finish it on time. He did code something, it's that there wasn't enough time to even work out how it would fit into our GUI as he did not finish early enough for us to figure that out. 
+
+There is also a new view progress report where you can select a txt file and the contents will be output into a
+JTextArea, the txt files are able to be created within the animal and ticket parts of the GUI. 
+
+Romel Munoz - Unfortunately, i was unable to create a working gui and a working class for the giftshop section of this before the due date.
