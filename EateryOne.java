@@ -96,7 +96,7 @@ public class EateryOne {
       
       confirm.addActionListener(new ActionListener() {
          public void actionPerformed(ActionEvent e) {
-            ZooUI.main(null);
+            ChoosingRestaurant.main(null);
             frame.dispose();
             }}); 
 
