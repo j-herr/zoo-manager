@@ -10,3 +10,5 @@ They all write to a .txt file (bar the restaurant) that will save the data for g
 report class where you can open each file that was written to and view their contents. 
 
 **** On the animal class make sure you type the "$" for food cost (Example: $4.00)****
+
+**The Gift shop portion provided with lots of trouble and unfortunately did not get implemented in time for submission.
