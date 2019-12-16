@@ -17,3 +17,4 @@ was one of the things we said would be working, but it was Romel's part to code,
 There is also a new view progress report where you can select a txt file and the contents will be output into a
 JTextArea, the txt files are able to be created within the animal and ticket parts of the GUI. 
 
+Romel Munoz - Unfortunately, i was unable to create a working gui and a working class for the giftshop section of this before the due date.
