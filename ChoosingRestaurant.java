@@ -30,7 +30,7 @@ public class ChoosingRestaurant {
             }});
       done.addActionListener(new ActionListener() {
          public void actionPerformed(ActionEvent e) {
-            ZooUI.main(null);
+            ZooGui.main(null);
             frame.dispose();
             }}); 
   
