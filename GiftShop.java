@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.io.*;
+
 public class GiftShop
 {
    //for simplicity, we're assuming all employees do 8 hr shifts.
@@ -35,8 +37,27 @@ public class GiftShop
    
    Inventory giftShopInventory;
    
-   //Initializes the gift shop with a default inventory
-   public GiftShop(String name, int sa, int asm, int sm, double saWage, double asmWage,double smWage)
+   
+   //Initializes the gift shop with existing inventory
+   public GiftShop(int a, String name, int sa, int asm, int sm, double saWage, double asmWage,double smWage)
+   {
+      this.giftShopInventory = new Inventory(a);
+      setGiftShopName(name);
+      setSalesAssociates(sa);
+      setAssistantManagers(asm);
+      setManagers(sm);
+      setSAWage(saWage);
+      setASMWage(asmWage);
+      setSMWage(smWage);
+      setAllSAWages();
+      setAllASMWages();
+      setAllSMWages();
+      setTotalWages();
+      
+   }
+   
+   //initializes gift shop with default inventory.
+    public GiftShop(String name, int sa, int asm, int sm, double saWage, double asmWage,double smWage)
    {
       this.giftShopInventory = new Inventory();
       setGiftShopName(name);
@@ -53,12 +74,13 @@ public class GiftShop
       
    }
    
-   public boolean addGiftRevenue(int giftCode, int quantity)
+   public boolean addGiftShopRevenue(int giftCode, int quantity)
    {
       boolean confirmed = false; 
       int count = 0;
       int i = 0;
-      
+      DataOutputStream q = Inventory.readWriteFile("Inventory.txt");
+      DataOutputStream n = Inventory.readWriteFile("GiftShopReport.txt");
       //If input quantity is more than whats in inventory, or if giftCode is non existant, this message will display, and nothing happens
       if (quantity > 200 || giftCode >5 || giftCode <1)
       {
@@ -80,8 +102,19 @@ public class GiftShop
          }
          i++;
          if (count == quantity)
-         confirmed = true;
+         {
+            confirmed = true;
+         }
       }
+      //updates inventory file
+      for (i = 0; i < Inventory.inStock.size(); i++)
+      {
+         Inventory.writeToInventory(Inventory.inStock.get(i), q);
+      }
+      
+      //keeps track of revenues earned in the day.
+      Inventory.writeToGiftShopRevenueReport(this.giftRevenue, n);
+      
       return confirmed;   
    }
    
@@ -211,4 +244,5 @@ public class GiftShop
    {
       giftShopInventory.displayInventory();
    }
+   
 }
