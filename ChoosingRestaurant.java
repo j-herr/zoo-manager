@@ -16,20 +16,14 @@ public class ChoosingRestaurant {
       
       rest1.addActionListener(new ActionListener() {
          public void actionPerformed(ActionEvent e) {
-            RestaurantOne.main(null);
+            EateryOne.main(null);
             frame.dispose();
             }});
       rest2.addActionListener(new ActionListener() {
          public void actionPerformed(ActionEvent e) {
-            RestaurantTwo.main(null);
+            EaterytTwo.main(null);
             frame.dispose();
             }});
    }
-   
-   public static void rest1Pass() {
-      RestaurantOne.main(null);
-   }
-   public static void rest2Pass() {
-      RestaurantTwo.main(null);
-   }
+
    }
