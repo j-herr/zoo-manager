@@ -1,0 +1,9 @@
+Project Version 2.0 -- 12/15/2019
+
+Benjamin Buchanan -- 10:41 PM
+  I redid the restaurant classes. I wanted to change it so that everything wasn't a static variable and I could actually make it object
+  oriented. I managed to do this for the most part. You can change the object's values from the GUI directly. However I couldn't get
+  the creation of objects in the GUI to work how I wanted to I chose to exclude that part of the class and just create the objects
+  during runtime but have the user change their actual values during the program. We all chose to undergo and change most of how each 
+  class worked, so it was less confusion when looking at the code. We kept the same basic idea of how our GUI would look and feel from the
+  original one that I made. 
